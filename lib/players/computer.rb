@@ -12,8 +12,8 @@ module Players
         b = "X"
       end
 
-      c = 0
-      cc = 0
+      
+      
       g = board.turn_count
       h = board.turn_count
 binding.pry 
@@ -24,6 +24,7 @@ binding.pry
           xx = combo[0]
           yy = combo[1]
           zz = combo[2]
+          cc = 0
           if board.cells[xx] == a
             cc += 1
           end
@@ -53,6 +54,7 @@ binding.pry
               x = combo[0]
               y = combo[1]
               z = combo[2]
+              c = 0
               if board.cells[x] == b
                 c += 1
               end
