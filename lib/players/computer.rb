@@ -16,7 +16,7 @@ module Players
       
       g = board.turn_count
       h = board.turn_count
-binding.pry 
+# binding.pry 
       if h == 0
         return "1"
       else
