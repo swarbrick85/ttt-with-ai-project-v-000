@@ -34,13 +34,13 @@ module Players
             cc += 1
           end
           if cc == 2 && board.cells[xx] == " "
-            return "#{(xx + 1)}"
+            return "#{(xx)}"
             g += 1
           elsif cc == 2 && board.cells[yy] == " "
-            return "#{(yy + 1)}"
+            return "#{(yy)}"
             g += 1
           elsif cc == 2 && board.cells[zz] == " "
-            return "#{(zz + 1)}"
+            return "#{(zz)}"
             g += 1
           end
         end
